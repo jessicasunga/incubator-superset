@@ -148,7 +148,7 @@ export const spectrums = {
   brown_white_green: [
     '#a6611a',
     '#dfc27d',
-    '#f5f5f5',
+    '#f9fbfb',
     '#80cdc1',
     '#018571',
   ],
