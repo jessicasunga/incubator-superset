@@ -61,7 +61,7 @@ class SparklineCell extends React.Component {
         reference={value}
         labelPosition="right"
         renderLabel={() => label}
-        stroke="#bbb"
+        stroke="#f9fbfb"
         strokeDasharray="3 3"
         strokeWidth={1}
       />
