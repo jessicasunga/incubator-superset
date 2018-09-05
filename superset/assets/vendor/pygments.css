@@ -39,7 +39,7 @@
 .codehilite .nt { color: #008000; font-weight: bold } /* Name.Tag */
 .codehilite .nv { color: #19177C } /* Name.Variable */
 .codehilite .ow { color: #AA22FF; font-weight: bold } /* Operator.Word */
-.codehilite .w { color: #bbbbbb } /* Text.Whitespace */
+.codehilite .w { color: #f9fbfbbbb } /* Text.Whitespace */
 .codehilite .mf { color: #666666 } /* Literal.Number.Float */
 .codehilite .mh { color: #666666 } /* Literal.Number.Hex */
 .codehilite .mi { color: #666666 } /* Literal.Number.Integer */

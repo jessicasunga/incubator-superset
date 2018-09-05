@@ -34,10 +34,10 @@
 }
 
 .treemap .children rect.parent {
-  fill: #bbb;
+  fill: #f9fbfb;
   fill-opacity: .5;
 }
 
 .treemap .children:hover rect.child {
-  fill: #bbb;
+  fill: #f9fbfb;
 }

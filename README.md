@@ -122,6 +122,21 @@ Installation & Configuration
 
 [See in the documentation](https://superset.incubator.apache.org/installation.html)
 
+### Docker Quickstart ###
+
+To run locally using docker you can do:
+```
+git clone https://github.com/apache/incubator-superset/
+cd incubator-superset
+cp contrib/docker/{docker-build.sh,docker-compose.yml,docker-entrypoint.sh,docker-init.sh,Dockerfile} .
+cp contrib/docker/superset_config.py superset/
+bash -x docker-build.sh
+docker-compose up -d
+docker-compose exec superset bash
+bash docker-init.sh
+```
+
+This will prompt for some info to create an admin user. If everything went smoothly you should be able to access your local instance of superset including some test data at http://localhost:8088/
 
 Resources
 -------------
